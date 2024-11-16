@@ -13,29 +13,30 @@ MonoBehaviour:
   m_Name: New Letter
   m_EditorClassIdentifier: 
   letters:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 2084308156, guid: 8848bf9a4f2386c408362dbfb0f96e38, type: 3}
+  - {fileID: 424279797, guid: 8848bf9a4f2386c408362dbfb0f96e38, type: 3}
+  - {fileID: -1858512655, guid: 8848bf9a4f2386c408362dbfb0f96e38, type: 3}
+  - {fileID: 446778510, guid: 8848bf9a4f2386c408362dbfb0f96e38, type: 3}
+  - {fileID: -835761435, guid: 8848bf9a4f2386c408362dbfb0f96e38, type: 3}
+  - {fileID: 1570584568, guid: 8848bf9a4f2386c408362dbfb0f96e38, type: 3}
+  - {fileID: 1411621494, guid: 8848bf9a4f2386c408362dbfb0f96e38, type: 3}
+  - {fileID: 1742245720, guid: 8848bf9a4f2386c408362dbfb0f96e38, type: 3}
+  - {fileID: -1068836933, guid: 8848bf9a4f2386c408362dbfb0f96e38, type: 3}
+  - {fileID: 1896377032, guid: 8848bf9a4f2386c408362dbfb0f96e38, type: 3}
+  - {fileID: -29687256, guid: 8848bf9a4f2386c408362dbfb0f96e38, type: 3}
+  - {fileID: -2061302033, guid: 8848bf9a4f2386c408362dbfb0f96e38, type: 3}
+  - {fileID: 1759012093, guid: 8848bf9a4f2386c408362dbfb0f96e38, type: 3}
+  - {fileID: -21240958, guid: 8848bf9a4f2386c408362dbfb0f96e38, type: 3}
+  - {fileID: 356735417, guid: 8848bf9a4f2386c408362dbfb0f96e38, type: 3}
+  - {fileID: 339299788, guid: 8848bf9a4f2386c408362dbfb0f96e38, type: 3}
+  - {fileID: -1778020506, guid: 8848bf9a4f2386c408362dbfb0f96e38, type: 3}
+  - {fileID: -1224587628, guid: 8848bf9a4f2386c408362dbfb0f96e38, type: 3}
+  - {fileID: -1589548138, guid: 8848bf9a4f2386c408362dbfb0f96e38, type: 3}
+  - {fileID: -412888178, guid: 8848bf9a4f2386c408362dbfb0f96e38, type: 3}
+  - {fileID: -1784100132, guid: 8848bf9a4f2386c408362dbfb0f96e38, type: 3}
+  - {fileID: -1979359184, guid: 8848bf9a4f2386c408362dbfb0f96e38, type: 3}
+  - {fileID: -1754559369, guid: 8848bf9a4f2386c408362dbfb0f96e38, type: 3}
+  - {fileID: -1882984670, guid: 8848bf9a4f2386c408362dbfb0f96e38, type: 3}
+  - {fileID: -117301886, guid: 8848bf9a4f2386c408362dbfb0f96e38, type: 3}
+  - {fileID: 1133923731, guid: 8848bf9a4f2386c408362dbfb0f96e38, type: 3}
+  - {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}

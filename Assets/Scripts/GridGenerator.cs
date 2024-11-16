@@ -1,7 +1,10 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Random = UnityEngine.Random;
+
 public class GridGenerator : MonoBehaviour
 {
   [SerializeField] private GameObject cell;
@@ -18,13 +21,16 @@ public class GridGenerator : MonoBehaviour
     myCell.transform.localScale = Vector3.one;
     myList.Add(myCell);
   }
-    InvokeRepeating(nameof(ShowLetter), 1,1 );
-    
+    StartCoroutine(coroutineShowLetter());
   }
-
-  private void ShowLetter()
+ 
+  private IEnumerator coroutineShowLetter()
   {
-    
-    myList[2].GetComponent<Image>().sprite = letter.letters[1];
+    myList[2].GetComponent<Image>().sprite = letter.letters[Random.Range(0,26)];
+    yield return new WaitForSeconds(3f);
+    myList[2].GetComponent<Image>().sprite = letter.letters[26];
+    yield return new WaitForSeconds(3f);
+    StartCoroutine(coroutineShowLetter());
   }
+ 
 }
