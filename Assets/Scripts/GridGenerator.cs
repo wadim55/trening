@@ -26,10 +26,11 @@ public class GridGenerator : MonoBehaviour
  
   private IEnumerator coroutineShowLetter()
   {
-    myList[2].GetComponent<Image>().sprite = letter.letters[Random.Range(0,26)];
+    var currentCell = Random.Range(0, 100);
+    myList[currentCell].GetComponent<Image>().sprite = letter.letters[Random.Range(0,26)];
     yield return new WaitForSeconds(3f);
-    myList[2].GetComponent<Image>().sprite = letter.letters[26];
-    yield return new WaitForSeconds(3f);
+    myList[currentCell].GetComponent<Image>().sprite = letter.letters[26];
+    yield return new WaitForSeconds(0.3f);
     StartCoroutine(coroutineShowLetter());
   }
  
